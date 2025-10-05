@@ -8,7 +8,7 @@ TexAnimData CFlame::msAnimData = TexAnimData(8, 8, false, 64, ANIM_TIME);
 
 // コンストラクタ
 CFlame::CFlame(ETag tag)
-	: CBillBoardImage("Effect/flame.png", tag, ETaskPauseType::eGame)
+	: CBillboardImage("Effect/flame.png", tag, ETaskPauseType::eGame)
 	, mMoveSpeed(CVector::zero)
 	, mElapsedTime(0.0f)
 	, mIsDeath(false)
@@ -91,7 +91,7 @@ void CFlame::Collision(CCollider* self, CCollider* other, const CHitInfo& hit)
 void CFlame::Update()
 {
 	// 基底クラスの更新処理
-	CBillBoardImage::Update();
+	CBillboardImage::Update();
 
 	// 炎のエフェクトを移動
 	CVector move = mMoveSpeed * Times::DeltaTime();

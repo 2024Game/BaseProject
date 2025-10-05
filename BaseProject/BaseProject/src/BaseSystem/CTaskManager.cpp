@@ -1,7 +1,7 @@
 #include "CTaskManager.h"
 #include "CCamera.h"
 #include "CDebugCamera.h"
-#include "CBillBoard.h"
+#include "CBillboard.h"
 
 //タスクマネージャのインスタンス
 CTaskManager* CTaskManager::mpInstance = nullptr;

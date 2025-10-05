@@ -95,6 +95,9 @@
     <Filter Include="ソース ファイル\BaseSystem\Navigation">
       <UniqueIdentifier>{385f8279-0f7e-4273-9c5d-14919cbe6cd9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\BaseSystem\Shader">
+      <UniqueIdentifier>{c19b8829-5f60-4c9d-9e2f-960d58050af5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -116,12 +119,6 @@
       <Filter>ソース ファイル\BaseSystem\Collider</Filter>
     </ClCompile>
     <ClCompile Include="src\BaseSystem\CMatrix.cpp">
-      <Filter>ソース ファイル\BaseSystem\Math</Filter>
-    </ClCompile>
-    <ClCompile Include="src\BaseSystem\CMyShader.cpp">
-      <Filter>ソース ファイル\BaseSystem\Math</Filter>
-    </ClCompile>
-    <ClCompile Include="src\BaseSystem\CShader.cpp">
       <Filter>ソース ファイル\BaseSystem\Math</Filter>
     </ClCompile>
     <ClCompile Include="src\BaseSystem\CVector.cpp">
@@ -166,7 +163,7 @@
     <ClCompile Include="src\BaseSystem\CEffect.cpp">
       <Filter>ソース ファイル\BaseSystem\Effect</Filter>
     </ClCompile>
-    <ClCompile Include="src\BaseSystem\CBillBoard.cpp">
+    <ClCompile Include="src\BaseSystem\CBillboard.cpp">
       <Filter>ソース ファイル\BaseSystem\Effect</Filter>
     </ClCompile>
     <ClCompile Include="src\BaseSystem\CTask.cpp">
@@ -226,7 +223,7 @@
     <ClCompile Include="src\Game\CMoveFloor.cpp">
       <Filter>ソース ファイル\Game\Field\Object</Filter>
     </ClCompile>
-    <ClCompile Include="src\Game\CRideabeObject.cpp">
+    <ClCompile Include="src\Game\CRideableObject.cpp">
       <Filter>ソース ファイル\Game\Field\Object</Filter>
     </ClCompile>
     <ClCompile Include="src\Game\CRotateFloor.cpp">
@@ -277,7 +274,7 @@
     <ClCompile Include="src\BaseSystem\CGamePause.cpp">
       <Filter>ソース ファイル\BaseSystem\System</Filter>
     </ClCompile>
-    <ClCompile Include="src\BaseSystem\CBillBoardImage.cpp">
+    <ClCompile Include="src\BaseSystem\CBillboardImage.cpp">
       <Filter>ソース ファイル\BaseSystem\Effect</Filter>
     </ClCompile>
     <ClCompile Include="src\BaseSystem\CRect.cpp">
@@ -388,6 +385,12 @@
     <ClCompile Include="src\BaseSystem\CNavNode.cpp">
       <Filter>ソース ファイル\BaseSystem\Navigation</Filter>
     </ClCompile>
+    <ClCompile Include="src\BaseSystem\CMyShader.cpp">
+      <Filter>ソース ファイル\BaseSystem\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseSystem\CShader.cpp">
+      <Filter>ソース ファイル\BaseSystem\Shader</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\BaseSystem\CCollider.h">
@@ -406,12 +409,6 @@
       <Filter>ソース ファイル\BaseSystem\Collider</Filter>
     </ClInclude>
     <ClInclude Include="src\BaseSystem\CMatrix.h">
-      <Filter>ソース ファイル\BaseSystem\Math</Filter>
-    </ClInclude>
-    <ClInclude Include="src\BaseSystem\CMyShader.h">
-      <Filter>ソース ファイル\BaseSystem\Math</Filter>
-    </ClInclude>
-    <ClInclude Include="src\BaseSystem\CShader.h">
       <Filter>ソース ファイル\BaseSystem\Math</Filter>
     </ClInclude>
     <ClInclude Include="src\BaseSystem\CVector.h">
@@ -462,7 +459,7 @@
     <ClInclude Include="src\BaseSystem\CEffect.h">
       <Filter>ソース ファイル\BaseSystem\Effect</Filter>
     </ClInclude>
-    <ClInclude Include="src\BaseSystem\CBillBoard.h">
+    <ClInclude Include="src\BaseSystem\CBillboard.h">
       <Filter>ソース ファイル\BaseSystem\Effect</Filter>
     </ClInclude>
     <ClInclude Include="src\BaseSystem\TaskPriority.h">
@@ -591,7 +588,7 @@
     <ClInclude Include="src\BaseSystem\CGamePause.h">
       <Filter>ソース ファイル\BaseSystem\System</Filter>
     </ClInclude>
-    <ClInclude Include="src\BaseSystem\CBillBoardImage.h">
+    <ClInclude Include="src\BaseSystem\CBillboardImage.h">
       <Filter>ソース ファイル\BaseSystem\Effect</Filter>
     </ClInclude>
     <ClInclude Include="src\BaseSystem\CRect.h">
@@ -704,6 +701,12 @@
     </ClInclude>
     <ClInclude Include="src\BaseSystem\CNavNode.h">
       <Filter>ソース ファイル\BaseSystem\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseSystem\CMyShader.h">
+      <Filter>ソース ファイル\BaseSystem\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseSystem\CShader.h">
+      <Filter>ソース ファイル\BaseSystem\Shader</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

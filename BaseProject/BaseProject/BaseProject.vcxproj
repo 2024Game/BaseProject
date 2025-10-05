@@ -14,8 +14,8 @@
     <ClCompile Include="src\BaseSystem\BGMData.cpp" />
     <ClCompile Include="src\BaseSystem\Blend.cpp" />
     <ClCompile Include="src\BaseSystem\CBGMManager.cpp" />
-    <ClCompile Include="src\BaseSystem\CBillBoard.cpp" />
-    <ClCompile Include="src\BaseSystem\CBillBoardImage.cpp" />
+    <ClCompile Include="src\BaseSystem\CBillboard.cpp" />
+    <ClCompile Include="src\BaseSystem\CBillboardImage.cpp" />
     <ClCompile Include="src\BaseSystem\CBounds.cpp" />
     <ClCompile Include="src\BaseSystem\CButton.cpp" />
     <ClCompile Include="src\BaseSystem\CCamera.cpp" />
@@ -90,7 +90,7 @@
     <ClCompile Include="src\Game\CImage.cpp" />
     <ClCompile Include="src\Game\CMoveFloor.cpp" />
     <ClCompile Include="src\Game\CPlayer.cpp" />
-    <ClCompile Include="src\Game\CRideabeObject.cpp" />
+    <ClCompile Include="src\Game\CRideableObject.cpp" />
     <ClCompile Include="src\Game\CRotateFloor.cpp" />
     <ClCompile Include="src\Game\CSlash.cpp" />
     <ClCompile Include="src\Game\CSword.cpp" />
@@ -113,8 +113,8 @@
     <ClInclude Include="src\BaseSystem\BGMData.h" />
     <ClInclude Include="src\BaseSystem\Blend.h" />
     <ClInclude Include="src\BaseSystem\CBGMManager.h" />
-    <ClInclude Include="src\BaseSystem\CBillBoard.h" />
-    <ClInclude Include="src\BaseSystem\CBillBoardImage.h" />
+    <ClInclude Include="src\BaseSystem\CBillboard.h" />
+    <ClInclude Include="src\BaseSystem\CBillboardImage.h" />
     <ClInclude Include="src\BaseSystem\CBounds.h" />
     <ClInclude Include="src\BaseSystem\CButton.h" />
     <ClInclude Include="src\BaseSystem\CCamera.h" />

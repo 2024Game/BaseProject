@@ -1,5 +1,5 @@
 #pragma once
-#include "CBillBoardImage.h"
+#include "CBillboardImage.h"
 #include "CColliderSphere.h"
 
 // 炎のスケール値の最大値
@@ -8,7 +8,7 @@
 #define FLAME_SCALE_ANIM_TIME 3.0f
 
 // 炎のエフェクト
-class CFlame : public CBillBoardImage
+class CFlame : public CBillboardImage
 {
 public:
 	// コンストラクタ

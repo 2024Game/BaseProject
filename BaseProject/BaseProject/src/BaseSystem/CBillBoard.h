@@ -9,10 +9,10 @@
 ビルボードクラス
 常にカメラの方を向く四角形
 */
-class CBillBoard : public CObjectBase {
+class CBillboard : public CObjectBase {
 public:
 	//コンストラクタ
-	CBillBoard(ETag tag = ETag::eNone,
+	CBillboard(ETag tag = ETag::eNone,
 		ETaskPauseType pause = ETaskPauseType::eDefault);
 
 	void SetSize(const CVector2& size);

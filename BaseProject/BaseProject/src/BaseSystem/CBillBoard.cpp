@@ -1,13 +1,13 @@
-#include "CBillBoard.h"
+#include "CBillboard.h"
 //#include "CApplication.h"
 #include "CCamera.h"
 
-CBillBoard::CBillBoard(ETag tag, ETaskPauseType pause)
+CBillboard::CBillboard(ETag tag, ETaskPauseType pause)
 	: CObjectBase(tag, ETaskPriority::eBillboard, 0, pause)
 {
 }
 
-void CBillBoard::SetSize(const CVector2& size)
+void CBillboard::SetSize(const CVector2& size)
 {
 	//三角形の頂点座標設定
 	mT[0].Vertex
@@ -27,17 +27,17 @@ void CBillBoard::SetSize(const CVector2& size)
 	mT[1].Normal(CVector(0.0f, 0.0f, 1.0f));
 }
 
-void CBillBoard::Update()
+void CBillboard::Update()
 {
 }
 
-void CBillBoard::Render()
+void CBillboard::Render()
 {
 	Render(&mMaterial);
 }
 
 //Render(マテリアルのポインタ)
-void CBillBoard::Render(CMaterial* mpMaterial)
+void CBillboard::Render(CMaterial* mpMaterial)
 {
 	//行列の保存
 	glPushMatrix();

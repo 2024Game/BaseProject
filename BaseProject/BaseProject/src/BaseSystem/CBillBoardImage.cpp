@@ -1,7 +1,7 @@
-#include "CBillBoardImage.h"
+#include "CBillboardImage.h"
 
 // コンストラクタ
-CBillBoardImage::CBillBoardImage(std::string path, ETag tag, ETaskPauseType pause)
+CBillboardImage::CBillboardImage(std::string path, ETag tag, ETaskPauseType pause)
 	: CImage3D(path, tag, ETaskPriority::eBillboard, 0, pause)
 {
 	// ビルボードをオン
@@ -9,6 +9,6 @@ CBillBoardImage::CBillBoardImage(std::string path, ETag tag, ETaskPauseType paus
 }
 
 // デストラクタ
-CBillBoardImage::~CBillBoardImage()
+CBillboardImage::~CBillboardImage()
 {
 }

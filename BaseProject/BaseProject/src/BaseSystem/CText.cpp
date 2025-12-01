@@ -30,6 +30,10 @@ CText::CText(CFont* font, int fontSize, const CVector2& pos,
 		mpFont->SetFontSize(mFontSize);
 		mpFont->SetLineLength(mSize.X());
 	}
+	else
+	{
+		mpFont->SetFontSize(mFontSize);
+	}
 }
 
 CText::~CText()

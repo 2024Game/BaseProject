@@ -52,6 +52,7 @@ void CButton::LoadButtonText(CFont* font, int fontSize, std::string text)
 
 void CButton::LoadButtonImage(std::string normal, std::string select)
 {
+	SAFE_DELETE(mpNormalImage);
 	mpNormalImage = new CImage
 	(
 		normal.c_str(),
@@ -59,6 +60,7 @@ void CButton::LoadButtonImage(std::string normal, std::string select)
 		GetPauseType(),
 		false, false
 	);
+	SAFE_DELETE(mpSelectImage);
 	mpSelectImage = new CImage
 	(
 		select.c_str(),

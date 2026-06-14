@@ -10,4 +10,5 @@ enum class EScene
 
 	eBootMenu,	//起動時メニュー
 	eColTest,	//衝突判定テスト
+	eGameInputTest,	// GameInputテスト
 };

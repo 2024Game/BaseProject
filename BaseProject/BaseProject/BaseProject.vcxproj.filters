@@ -98,6 +98,9 @@
     <Filter Include="ソース ファイル\BaseSystem\Shader">
       <UniqueIdentifier>{c19b8829-5f60-4c9d-9e2f-960d58050af5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Test\GameInputTest">
+      <UniqueIdentifier>{a7f9a4b5-680f-490f-b334-1bba054b2706}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
@@ -390,6 +393,9 @@
     </ClCompile>
     <ClCompile Include="src\BaseSystem\CShader.cpp">
       <Filter>ソース ファイル\BaseSystem\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Test\CGameInputTestScene.cpp">
+      <Filter>ソース ファイル\Test\GameInputTest</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -708,5 +714,11 @@
     <ClInclude Include="src\BaseSystem\CShader.h">
       <Filter>ソース ファイル\BaseSystem\Shader</Filter>
     </ClInclude>
+    <ClInclude Include="src\Test\CGameInputTestScene.h">
+      <Filter>ソース ファイル\Test\GameInputTest</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>

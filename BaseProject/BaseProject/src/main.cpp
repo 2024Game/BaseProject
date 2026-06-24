@@ -101,9 +101,13 @@ void idle() {
 	CDebugProfiler::Print();
 }
 
-int main(void)
+int main(int argc, char* argv[])
 {
 	GLFWwindow* window;
+
+	// freeglut‚Ì‰Šú‰»
+	// GLUT•â••`‰æŠÖ”‚ğg‚¤‚½‚ß‚É•K—v
+	glutInit(&argc, argv);
 
 	/* Initialize the library */
 	if (!glfwInit())
